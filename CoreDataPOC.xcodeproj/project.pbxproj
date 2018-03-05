@@ -14,6 +14,7 @@
 		08C35FDD204D3405001EA1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C35FDC204D3405001EA1EB /* Assets.xcassets */; };
 		08C35FE0204D3405001EA1EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C35FDE204D3405001EA1EB /* LaunchScreen.storyboard */; };
 		08C35FEB204D3405001EA1EB /* CoreDataPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C35FEA204D3405001EA1EB /* CoreDataPOCTests.swift */; };
+		08C35FFB204D37B1001EA1EB /* NoteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C35FFA204D37B1001EA1EB /* NoteDAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		08C35FE6204D3405001EA1EB /* CoreDataPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C35FEA204D3405001EA1EB /* CoreDataPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPOCTests.swift; sourceTree = "<group>"; };
 		08C35FEC204D3405001EA1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C35FFA204D37B1001EA1EB /* NoteDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +81,9 @@
 		08C35FD1204D3405001EA1EB /* CoreDataPOC */ = {
 			isa = PBXGroup;
 			children = (
-				08C35FD2204D3405001EA1EB /* AppDelegate.swift */,
-				08C35FD4204D3405001EA1EB /* ViewController.swift */,
-				08C35FD6204D3405001EA1EB /* Main.storyboard */,
-				08C35FDC204D3405001EA1EB /* Assets.xcassets */,
-				08C35FDE204D3405001EA1EB /* LaunchScreen.storyboard */,
-				08C35FE1204D3405001EA1EB /* Info.plist */,
+				08C35FF5204D3489001EA1EB /* Other */,
 				08C35FD9204D3405001EA1EB /* CoreDataPOC.xcdatamodeld */,
+				08C35FFA204D37B1001EA1EB /* NoteDAO.swift */,
 			);
 			path = CoreDataPOC;
 			sourceTree = "<group>";
@@ -97,6 +95,19 @@
 				08C35FEC204D3405001EA1EB /* Info.plist */,
 			);
 			path = CoreDataPOCTests;
+			sourceTree = "<group>";
+		};
+		08C35FF5204D3489001EA1EB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				08C35FD2204D3405001EA1EB /* AppDelegate.swift */,
+				08C35FD4204D3405001EA1EB /* ViewController.swift */,
+				08C35FD6204D3405001EA1EB /* Main.storyboard */,
+				08C35FDC204D3405001EA1EB /* Assets.xcassets */,
+				08C35FDE204D3405001EA1EB /* LaunchScreen.storyboard */,
+				08C35FE1204D3405001EA1EB /* Info.plist */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 				08C35FD5204D3405001EA1EB /* ViewController.swift in Sources */,
 				08C35FD3204D3405001EA1EB /* AppDelegate.swift in Sources */,
 				08C35FDB204D3405001EA1EB /* CoreDataPOC.xcdatamodeld in Sources */,
+				08C35FFB204D37B1001EA1EB /* NoteDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
